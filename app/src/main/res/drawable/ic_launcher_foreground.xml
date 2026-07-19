@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark Space Background -->
+    <path
+        android:fillColor="#0B0B0B"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Neon Cyan Core -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,54m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+
+    <!-- Faded Orbit Track -->
+    <path
+        android:strokeColor="#33FFFF00"
+        android:strokeWidth="1.5"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+
+    <!-- Yellow Shield Arc -->
+    <path
+        android:strokeColor="#FFFF00"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 A30,30 0,0 1,84 54" />
+
+    <!-- Red Enemy Diamond 1 -->
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M24,78 L18,84 L12,78 L18,72 Z" />
+
+    <!-- Red Enemy Diamond 2 -->
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M24,30 L18,36 L12,30 L18,24 Z" />
+</vector>
